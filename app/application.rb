@@ -13,6 +13,8 @@ class Application
       resp.write "Good Morning!"
     end #if current_hour/min
 
+    resp.finish
+
   end #call
 
 end #class Application
