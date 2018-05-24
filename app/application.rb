@@ -5,6 +5,7 @@ class Application
 
     current_time = Time.now
     current_hour = current_time.strftime("%H").to_i
+    current_min = current_time.strftime("%M").to_i
 
     if time_now > 12:00
       resp
