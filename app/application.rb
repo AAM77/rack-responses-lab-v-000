@@ -3,9 +3,11 @@ class Application
   def call(env)
     resp = Rack::Response.new
 
-    time_now = Time.now.strftime("%H:%M")
+    current_time = Time.now
+    current_hour = current_time.strftime("%H").to_i
 
-    if time_now
+    if time_now > 12:00
+      resp
 
   end #call
 
