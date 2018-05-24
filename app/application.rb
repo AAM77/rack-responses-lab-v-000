@@ -14,7 +14,6 @@ class Application
     end #if current_hour/min
 
     resp.finish
-
   end #call
 
 end #class Application
